@@ -26,6 +26,10 @@ Here is a brief description of scripts used for NNeval:
 
 All the metric implementations were taken from the MSCOCO official evaluation server, except for WMD. 
 
+For MSCOCO: https://github.com/tylin/coco-caption
+
+For WMD: https://radimrehurek.com/gensim/models/word2vec.html#gensim.models.word2vec.Word2Vec.wmdistance
+
 =======================================================================
 
 2)nn_classify_test_nneval.py (py35) is the test bed for the test set
