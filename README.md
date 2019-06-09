@@ -9,8 +9,10 @@ Dependencies
 This code was written in Python and to use the code, following is needed:
 
 -Python 2.7 (for the tokenizer and some features)
+
 -Python 3.5 (for NNEval model and metric)
--TensorFlow 
+
+-TensorFlow 1.5.0
 
 
 Scripts
@@ -21,8 +23,6 @@ Here is a brief description of scripts used for NNeval:
 1)test_feature_extraction.py  (py27) this is the code for extracting scores of various metrics which are used as features
 
 =======================================================================
-
-Please note that the scores for SPICE and METEOR were extracted before hand and saved in a json file, due to python comptibility issues. The json files were then opened in the feature extraction module and the scores were included in the feature vector. 
 
 All the metric implementations were taken from the MSCOCO official evaluation server, except for WMD. 
 
@@ -39,6 +39,11 @@ All the metric implementations were taken from the MSCOCO official evaluation se
 4)nn_classify_utils_nneval (py35) contains some utility functions
 
 =======================================================================
+
+*Please note that the scores for SPICE and METEOR were extracted before hand and saved in a json file, due to python comptibility issues. The json files were then opened in the feature extraction module and the scores were included in the feature vector. 
+
+-------------------------------
+
 
 Please follow the following order of running the scripts:
 
