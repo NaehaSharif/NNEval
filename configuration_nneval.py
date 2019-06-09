@@ -17,7 +17,7 @@ class ModelConfig(object):
   def __init__(self):
     """Sets the default model hyperparameters."""
 
-    self.train_batch_size = 75
+    self.train_batch_size = 6650
     self.val_batch_size = 3976 # size of the validation set 
 
     # Scale used to initialize model variables.
