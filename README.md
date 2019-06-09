@@ -6,13 +6,13 @@ NNEval is a learning-based metric to evaluate image captions. Our proposed frame
 
 Dependencies
 ==========
-This code was written in Python and to use the code, following is needed:
+These scripts were written in Python, and following is needed to run these scripts:
 
--Python 2.7 (for the tokenizer and some features)
+-Python 2.7 (for the tokenizer and some of the features)
 
 -Python 3.5 (for NNEval model and metric)
 
--TensorFlow 1.5.0
+-TensorFlow 1.5.0 (GPU)
 
 
 Scripts
@@ -20,7 +20,7 @@ Scripts
 
 Here is a brief description of scripts used for NNeval:
 
-1)test_feature_extraction.py  (py27) this is the code for extracting scores of various metrics which are used as features
+1)test_feature_extraction_nneval.py  (py27) this is the code for extracting scores of various metrics which are used as features
 
 =======================================================================
 
